@@ -56,7 +56,7 @@ class StudentExerciseReports():
             #         f'{student.first_name} {student.last_name} is in {student.cohort}')
 
             for student in all_students:
-                aprint(student)
+                print(student)
 
 
 reports = StudentExerciseReports()
